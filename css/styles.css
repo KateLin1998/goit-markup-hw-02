@@ -9,6 +9,7 @@ body {
     color: #333;
 }
 
+/* Header */
 header {
     background-color: #ffffff;
     padding: 20px 50px;
@@ -31,18 +32,16 @@ header {
     color: #007bff;
 }
 
+/* Corrected here: Added the closing brace */
 .navbar nav {
     flex-grow: 1;
-    /* Makes the navigation stretch */
     text-align: center;
-    /* Centers the nav menu horizontally */
 }
 
 .navbar ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    /* Centers the list items */
     margin: 0;
     padding: 0;
 }
@@ -63,6 +62,7 @@ header {
     color: #666;
 }
 
+/* Hero Section */
 .hero {
     background-color: #2c2e49;
     color: white;
@@ -84,6 +84,7 @@ header {
     cursor: pointer;
 }
 
+/* Services Section */
 .services {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -106,6 +107,7 @@ header {
     margin: 0 auto;
 }
 
+/* Team Section */
 .team {
     text-align: center;
     padding: 60px 50px;
@@ -144,14 +146,13 @@ header {
     color: #666;
 }
 
+/* Portfolio Section */
 .portfolio {
     padding: 60px 0;
     text-align: center;
     background-color: #fff;
     max-width: 1200px;
-    /* Restricts the width */
     margin: 0 auto;
-    /* Centers the entire portfolio section */
 }
 
 .portfolio h2 {
@@ -162,11 +163,8 @@ header {
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* Three columns for portfolio items */
     gap: 30px;
-    /* Space between projects */
     padding: 0 50px;
-    /* Adds padding on the left and right to move the items inward */
 }
 
 .project {
@@ -175,11 +173,8 @@ header {
 
 .project img {
     width: 100%;
-    /* Ensures the images take full width of the container */
     height: auto;
-    /* Maintains aspect ratio */
     border-radius: 10px;
-    /* Slight rounding on the edges of the images */
 }
 
 .project h4 {
@@ -192,29 +187,32 @@ header {
     color: #666;
 }
 
+/* Footer */
 footer {
     background-color: #2c2e49;
-    /* Dark background like in the image */
     color: white;
     text-align: left;
     padding: 40px 0;
-    /* Adds spacing around the text */
     font-size: 14px;
 }
 
 .footer-content {
     max-width: 400px;
-        /* Restricting content width to make the text look like a block */
-    margin: 20px 20px  20px  20px;
-        /* Centers the block horizontally */
-        text-align: left;
-        /* Left-aligns the text */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
 }
 
 footer .logo-footer {
     font-size: 24px;
     font-weight: bold;
     color: #007bff;
-    /* Bright color for the logo text */
     margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    color: #ccc;
+    line-height: 1.8;
+    margin: 0 auto;
 }

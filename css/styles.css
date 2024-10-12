@@ -22,12 +22,6 @@ header {
     color: #2e2f42;
 }
 
-.navbar .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #007bff;
-}
-
 .navbar ul {
     list-style: none;
 }

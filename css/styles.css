@@ -147,7 +147,7 @@ a {
         cursor: pointer;
 }
 
-.first-section-button:hover 
+.first-section-button:hover,
 .first-section-button:focus {
     background-color: #404BBF;
     cursor: pointer;
